@@ -33,9 +33,9 @@ searchBtn.addEventListener('click', async () => {
 <h2>${data.name}</h2>
 <p><strong>Condition:</strong> ${condition}</p>
 <p><strong>Temperature:</strong> ${data.main.temp}°c </p>
-<p><strong>Feels Like:</strong> ${data.main.feels_like}°c </p>
-<p><strong>Humidity:</strong> ${data.main.humidity}% </p>
-<p><strong>Wind:</strong> ${data.wind.speed} m/s </p>
+<p><span>Feels Like:</span> ${data.main.feels_like}°c </p>
+<p><span>Humidity:</span> ${data.main.humidity}% </p>
+<p><span>Wind:</span> ${data.wind.speed} m/s </p>
 </div>
 `;
 
